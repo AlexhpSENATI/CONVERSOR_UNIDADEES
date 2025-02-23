@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Calculos</string>
+
+    <string name="hint_input_value">Ingrese el valor</string>
+    <string name="button_convert">Convertir</string>
+    <string name="label_result">Resultado</string>
+    <string name="error_empty_input">Ingrese un valor</string>
+
+    <string-array name="unit_types">
+        <item>Temperatura</item>
+        <item>Moneda</item>
+        <item>Longitud</item>
+    </string-array>
+
+    <string-array name="temperature_units">
+        <item>Celsius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="currency_units">
+        <item>USD</item>
+        <item>PEN</item>
+        <item>BOB</item>
+    </string-array>
+
+    <string-array name="length_units">
+        <item>Metros</item>
+        <item>Pies</item>
+        <item>Pulgadas</item>
+    </string-array>
+</resources>

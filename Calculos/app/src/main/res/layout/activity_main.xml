@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Spinner
+        android:id="@+id/spinnerUnitType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:entries="@array/unit_types" />
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:hint="@string/hint_input_value"
+        android:inputType="numberDecimal"
+        android:textAllCaps="true"
+        android:textColor="#0B1DF0" />
+
+    <Spinner
+        android:id="@+id/spinnerFromUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:spinnerMode="dropdown" />
+
+    <Spinner
+        android:id="@+id/spinnerToUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF9800"
+        android:text="@string/button_convert"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_result"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="16dp" />
+</LinearLayout>
